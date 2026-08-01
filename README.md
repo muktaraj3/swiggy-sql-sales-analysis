@@ -110,25 +110,31 @@ This project follows a structured SQL analytics workflow to transform raw transa
 6. **Key Findings**
    - Summarized the analytical results into actionable business insights.
 
-## 🗄️ Database Design
+## 🗄️ Database Design (Star Schema)
 
-To optimize analytical reporting, the raw transactional dataset was transformed into a **Star Schema**. This dimensional model separates descriptive attributes into dimension tables while storing measurable business metrics in a centralized fact table.
+To support efficient analytical reporting, the raw transactional dataset was transformed into a **Star Schema**. This dimensional model organizes descriptive information into dimension tables while storing transactional metrics in a centralized fact table.
+
+The Star Schema simplifies complex analytical queries, reduces data redundancy, and provides a scalable foundation for reporting and business analysis.
 
 ### Dimension Tables
 
-- **dim_date**
-- **dim_location**
-- **dim_restaurant**
-- **dim_category**
-- **dim_dish**
+| Table | Description |
+|-------|-------------|
+| **dim_date** | Stores date-related attributes for time-based analysis. |
+| **dim_location** | Contains geographical information such as city and state. |
+| **dim_restaurant** | Stores restaurant-specific details. |
+| **dim_category** | Contains food category information. |
+| **dim_dish** | Stores dish-level information. |
 
 ### Fact Table
 
-- **fact_swiggy_orders**
+| Table | Description |
+|-------|-------------|
+| **fact_swiggy_orders** | Stores transactional order details and links all dimension tables through foreign keys. |
 
-This design improves query performance, minimizes data redundancy, and provides a scalable foundation for business intelligence and reporting.
-
-> 📌 **ER Diagram will be added here.**
+<p align="center">
+  <img src="Images/ER_Diagram.png" alt="Star Schema ER Diagram" width="90%">
+</p>
 
 ## 💻 SQL Implementation
 
