@@ -122,16 +122,16 @@ The dataset was validated before analysis to ensure data quality and reliability
   <img src="Images/Data_Validation/Null_Value_Check.png" width="90%">
 </p>
 
-#### Duplicate Record Check
+#### Duplicate Record Deletion Check
 
 <p align="center">
-  <img src="Images/Data_Validation/Duplicate_Record_Check.png" width="90%">
+  <img src="Images/Data_Validation/Delete_Duplicates.png" width="90%">
 </p>
 
-#### Date Conversion
+#### Blank/Empty Strings Check
 
 <p align="center">
-  <img src="Images/Data_Validation/Date_Conversion.png" width="90%">
+  <img src="Images/Data_Validation/Blank_Empty_Strings.png" width="90%">
 </p>
 
 ## 🗄️ Database Design (Star Schema)
