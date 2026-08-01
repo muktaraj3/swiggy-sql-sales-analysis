@@ -110,6 +110,30 @@ This project follows a structured SQL analytics workflow to transform raw transa
 6. **Key Findings**
    - Summarized the analytical results into actionable business insights.
 
+## 🔍 Data Validation
+
+The dataset was validated before analysis to ensure data quality and reliability. Validation checks included identifying null values, duplicate records, blank values, and verifying data types for analytical processing.
+
+### Sample Validation Outputs
+
+#### Null Value Check
+
+<p align="center">
+  <img src="Images/Data_Validation/Null_Value_Check.png" width="90%">
+</p>
+
+#### Duplicate Record Check
+
+<p align="center">
+  <img src="Images/Data_Validation/Duplicate_Record_Check.png" width="90%">
+</p>
+
+#### Date Conversion
+
+<p align="center">
+  <img src="Images/Data_Validation/Date_Conversion.png" width="90%">
+</p>
+
 ## 🗄️ Database Design (Star Schema)
 
 To support efficient analytical reporting, the raw transactional dataset was transformed into a **Star Schema**. This dimensional model organizes descriptive information into dimension tables while storing transactional metrics in a centralized fact table.
