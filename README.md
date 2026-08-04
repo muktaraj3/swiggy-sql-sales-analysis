@@ -1,6 +1,7 @@
 <p align="center">
   <img src="Images/Banner.png" alt="Swiggy Sales Analysis Banner" width="100%">
 </p>
+
 # 🍽️ Swiggy Sales Analysis using SQL
 
 An end-to-end SQL data analytics project that transforms raw Swiggy food delivery data into actionable business insights through data validation, cleaning, dimensional modelling, and analytical SQL queries using PostgreSQL.
@@ -34,7 +35,7 @@ This project addresses the following objectives:
 - Generate business KPIs using SQL
 - Extract actionable business insights from the data
 
-  ## 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 swiggy-sql-sales-analysis
@@ -172,93 +173,117 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 | **04_Star_Schema.sql** | Builds the dimensional model by creating dimension and fact tables. |
 | **05_Business_Findings.sql** | Contains analytical SQL queries used to calculate KPIs and generate business insights. |
 
-## 📊 Business Analysis
 
-After preparing the dataset and designing the analytical data model, SQL queries were developed to evaluate business performance across multiple dimensions.
+## 📊 Business Insights
 
-The analysis focuses on identifying trends, measuring key performance indicators (KPIs), and answering business questions related to sales, customer preferences, restaurant performance, and geographical distribution.
+### 💰 Key Performance Indicators (KPIs)
 
-## 📈 Key Performance Indicators (KPIs)
+#### Total Revenue
 
-The following KPIs were calculated using SQL:
+<p align="center">
+  <img src="Images/KPI_Results/Total_Revenue.png" width="80%">
+</p>
 
-- Total Orders
-- Total Revenue
-- Average Dish Price
-- Average Customer Rating
-- Total Number of Restaurants
-- Total Cities Covered
-- Total States Covered
+#### Total Orders
 
- ## 📑 Analytical Queries
-
-The project includes SQL queries to answer business questions such as:
-
-- How many total orders were placed?
-- What is the total revenue generated?
-- Which restaurants received the highest number of orders?
-- Which cities generated the highest sales?
-- Which states contributed the most revenue?
-- Which cuisine categories were the most popular?
-- Which dishes generated the highest revenue?
-- How do monthly and quarterly sales trends compare?
-- What is the distribution of customer ratings?
-- How are customers distributed across different spending buckets?
-
-## 💡 Key Business Findings
-
-> **This section will be updated after executing the analytical SQL queries and documenting the actual findings.**
-
-## 📷 Project Screenshots
-
-Screenshots of the data validation process, Star Schema, SQL query outputs, and analytical findings will be added here.
-
-### ER Diagram
-
-![ER Diagram](Images/ER_Diagram.png)
+<p align="center">
+  <img src="Images/KPI_Results/Total_Orders.png" width="80%">
+</p>
 
 ---
 
-### Monthly Revenue Analysis
+### 🌍 Geographical Analysis
 
-![Monthly Revenue](Images/Business_Insights/Monthly_Revenue.png)
+#### Revenue Contribution by States
+<p align="center">
+  <img src="Images/Business_Insights/Revenue_by_States.png" width="85%">
+</p>
+
+#### Top 10 Cities by Revenue
+<p align="center">
+  <img src="Images/Business_Insights/Top_10_Cities_by_Revenue.png" width="85%">
+</p>
+
+---
+
+### 🍽️ Restaurant & Cuisine Analysis
+
+#### Top 10 Restaurants by Revenue
+<p align="center">
+  <img src="Images/Business_Insights/Top_10_Restaurants_by_Revenue.png" width="85%">
+</p>
+
+#### Top Categories by Order Volume
+<p align="center">
+  <img src="Images/Business_Insights/Top_Categories_by_Order_Volume.png" width="85%">
+</p>
+
+---
+
+### 📈 Sales Trend Analysis
+
+#### Monthly Order Trends
+<p align="center">
+  <img src="Images/Business_Insights/Monthly_Order_Trend.png" width="85%">
+</p>
+
+#### Orders by Day of the Week
+<p align="center">
+  <img src="Images/Business_Insights/Orders_by_the_Day_of_Week.png" width="85%">
+</p>
+
+---
+
+### ⭐ Customer Behaviour Analysis
+
+#### Rating Count Distribution
+<p align="center">
+  <img src="Images/Business_Insights/Rating_Count_Distribution.png" width="85%">
+</p>
 
 ## 🧠 Skills Demonstrated
 
-### SQL & Database
-
+### SQL
 - SQL Query Writing
-- PostgreSQL
-- Joins
+- Joins (INNER, LEFT)
 - Aggregate Functions
-- Window Functions
+- GROUP BY & HAVING
+- Subqueries
 - Common Table Expressions (CTEs)
+- Window Functions
+- Date Functions
+- CASE Statements
 
-### Data Engineering
+### Database & Data Modelling
+- PostgreSQL
+- Database Design
+- Star Schema
+- Fact & Dimension Tables
+- Data Modelling
+- Primary & Foreign Keys
 
+### Data Preparation
 - Data Validation
 - Data Cleaning
+- Duplicate Detection & Removal
 - Data Transformation
-- Data Modelling
-- Star Schema Design
-- Dimensional Modelling
+- Data Quality Checks
 
 ### Business Analytics
-
 - KPI Development
-- Trend Analysis
 - Revenue Analysis
+- Geographical Analysis
+- Restaurant Performance Analysis
 - Customer Behaviour Analysis
-- Business Intelligence
-- Analytical Problem Solving
+- Trend Analysis
+- Business Insights Generation
 
-### Tools
-
-- PostgreSQL
+### Version Control & Documentation
 - Git
 - GitHub
-- Microsoft Word
-
+- Technical Documentation
+- Business Requirements Documentation
+  
 ## 📌 Conclusion
 
 This project demonstrates a complete SQL-based analytics workflow, from preparing raw transactional data to designing a dimensional data model and generating analytical insights. It showcases practical SQL skills, data modelling techniques, and a structured approach to solving real-world business problems.
