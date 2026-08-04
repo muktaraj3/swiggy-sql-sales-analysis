@@ -181,13 +181,13 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 #### Total Revenue
 
 <p align="center">
-  <img src="Images/KPI_Results/Total_Revenue.png" width="80%">
+  <img src="Images/KPI_Results/Total_Revenue.png" width="60%">
 </p>
 
 #### Total Orders
 
 <p align="center">
-  <img src="Images/KPI_Results/Total_Orders.png" width="80%">
+  <img src="Images/KPI_Results/Total_Orders.png" width="60%">
 </p>
 
 ---
@@ -196,12 +196,12 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 
 #### Revenue Contribution by States
 <p align="center">
-  <img src="Images/Business_Insights/Revenue_by_States.png" width="85%">
+  <img src="Images/Business_Insights/Revenue_by_States.png" width="70%">
 </p>
 
 #### Top 10 Cities by Revenue
 <p align="center">
-  <img src="Images/Business_Insights/Top_10_Cities_by_Revenue.png" width="85%">
+  <img src="Images/Business_Insights/Top_10_Cities_by_Revenue.png" width="70%">
 </p>
 
 ---
@@ -210,12 +210,12 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 
 #### Top 10 Restaurants by Revenue
 <p align="center">
-  <img src="Images/Business_Insights/Top_10_Restaurants_by_Revenue.png" width="85%">
+  <img src="Images/Business_Insights/Top_10_Restaurants_by_Revenue.png" width="70%">
 </p>
 
 #### Top Categories by Order Volume
 <p align="center">
-  <img src="Images/Business_Insights/Top_Categories_by_Order_Volume.png" width="85%">
+  <img src="Images/Business_Insights/Top_Categories_by_Order_Volume.png" width="70%">
 </p>
 
 ---
@@ -224,12 +224,12 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 
 #### Monthly Order Trends
 <p align="center">
-  <img src="Images/Business_Insights/Monthly_Order_Trend.png" width="85%">
+  <img src="Images/Business_Insights/Monthly_Order_Trend.png" width="70%">
 </p>
 
 #### Orders by Day of the Week
 <p align="center">
-  <img src="Images/Business_Insights/Orders_by_the_Day_of_Week.png" width="85%">
+  <img src="Images/Business_Insights/Orders_by_the_Day_of_Week.png" width="70%">
 </p>
 
 ---
@@ -238,7 +238,7 @@ The project is divided into modular SQL scripts, with each script focusing on a 
 
 #### Rating Count Distribution
 <p align="center">
-  <img src="Images/Business_Insights/Rating_Count_Distribution.png" width="85%">
+  <img src="Images/Business_Insights/Rating_Count_Distribution.png" width="70%">
 </p>
 
 ## 🧠 Skills Demonstrated
